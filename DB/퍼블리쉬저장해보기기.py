@@ -8,7 +8,7 @@ from json_utils import JsonUtils
 class DbCrud:
     def __init__(self):
         # MongoDB 연결
-        client = pymongo.MongoClient("mongodb://192.168.5.10:27017/")
+        client = pymongo.MongoClient("mongodb://localhost:27017/")
         self.db = client["SpiritDatabase"]
         self.asset_collection = self.db["test"]  # 새로운 컬렉션에 저장해야 할지 여부는 데이터 구조에 따라 결정
 
