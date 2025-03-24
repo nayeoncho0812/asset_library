@@ -13,7 +13,7 @@ for root, dirs, files in os.walk(na_spirit_dir):
         sys.path.append(root)
 
 sys.path.append("/home/llly/NA_Spirit/upload/") 
-from get_sgtk_info import ShotGridAssetManager
+# from get_sgtk_info import ShotGridAssetManager
 from constant import *
 from tree_ui_manager import TreeUiManager
 from table_ui_manager import TableUiManager
@@ -82,7 +82,7 @@ class DefaultUiManager:
                 border: 1px solid #303030;;
             }
         """)
-        self.user_num()
+        # self.user_num()
         
         TreeUiManager.tree_widget()
         TableUiManager().update_table(None,UPDATED_AT, 50, 0,None)

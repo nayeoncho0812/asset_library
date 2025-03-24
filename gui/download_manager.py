@@ -162,11 +162,11 @@ class DownloadManager:
         if not self.setDownloadFormat:
             format = 'Reference'
             print(f"{selected_ids_list}이(가) {format}로 다운로드되었습니다")
-            self.sender.redata_for_flow(selected_ids_list)
+            # self.sender.redata_for_flow(selected_ids_list)
         else:
             format = 'Import'
-            print(f"{selected_ids_list}이(가) {format}로 다운로드되었습니다")
-            self.sender.redata_for_flow(selected_ids_list)
+            # print(f"{selected_ids_list}이(가) {format}로 다운로드되었습니다")
+            # self.sender.redata_for_flow(selected_ids_list)
 
     def on_button_click(self):
         # 버튼 클릭 시 입력된 값을 MainWindow로 전달하는 시그널 발생
