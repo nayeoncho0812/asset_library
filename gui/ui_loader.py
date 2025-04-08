@@ -1,13 +1,6 @@
-try:
-    from PySide6.QtUiTools import QUiLoader
-    from PySide6.QtCore import QFile
-    from PySide6.QtWidgets import QWidget, QApplication
-
-except:
-    from PySide2.QtUiTools import QUiLoader
-    from PySide2.QtCore import QFile
-    from PySide2.QtWidgets import QWidget, QApplication
-
+from Qt.QtUiTools import QUiLoader
+from Qt.QtCore import QFile
+from Qt.QtWidgets import QWidget, QApplication
 
 
 class UILoader:

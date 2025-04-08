@@ -1,11 +1,7 @@
-try:
-    from PySide6.QtWidgets import QLabel
-    from PySide6.QtGui import QFont
-    from PySide6.QtCore import Qt
-except:
-    from PySide2.QtWidgets import QLabel
-    from PySide2.QtGui import QFont
-    from PySide2.QtCore import Qt
+from Qt.QtWidgets import QLabel
+from Qt.QtGui import QFont
+from Qt.QtCore import Qt
+
 
 class DynamicCircleLabel(QLabel):
     def __init__(self, text="", parent=None):

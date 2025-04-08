@@ -1,27 +1,8 @@
-# 로거 파일 추가해서 유저가 중요한 
-##### json 파일은 나스피릿에 넣고 이그노어 에 포함
-
-try:
-    from PySide6.QtWidgets import QMainWindow, QApplication, QLabel, QWidget, QGraphicsOpacityEffect
-    from PySide6.QtCore import QFile, Qt, Signal, QEvent, QObject, QUrl
-    from PySide6.QtGui import QPixmap, QIcon
-    from PySide6.QtUiTools import QUiLoader
-    from PySide6.QtWidgets import QSizePolicy, QVBoxLayout
-    from PySide6.QtMultimedia import QMediaPlayer
-    from PySide6.QtMultimediaWidgets import QVideoWidget
-except:
-    from PySide2.QtWidgets import QMainWindow, QApplication, QLabel, QWidget, QGraphicsOpacityEffect
-    from PySide2.QtCore import QFile, Qt, Signal, QEvent, QObject, QUrl
-    from PySide2.QtGui import QPixmap, QIcon
-    from PySide2.QtUiTools import QUiLoader
-    from PySide2.QtWidgets import QSizePolicy, QVBoxLayout
-    from PySide2.QtMultimedia import QMediaPlayer
-    from PySide2.QtMultimediaWidgets import QVideoWidget
-
-from functools import partial
+from Qt.QtWidgets import QLabel
+from Qt.QtCore import Qt
+from Qt.QtGui import QPixmap
 import sys
 import os
-import cv2
 
 
 # 현재 파일(ui.py)의 절대 경로

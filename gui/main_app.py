@@ -1,8 +1,4 @@
-try:
-    from PySide6.QtWidgets import QMainWindow, QApplication
-except:
-    from PySide2.QtWidgets import QMainWindow, QApplication
-
+from Qt.QtWidgets import QMainWindow, QApplication
 import sys
 import os
 

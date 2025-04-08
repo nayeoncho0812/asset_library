@@ -1,14 +1,4 @@
-# 로거 파일 추가해서 유저가 중요한 
-##### json 파일은 나스피릿에 넣고 이그노어 에 포함
-
-from PySide6.QtWidgets import QMainWindow, QApplication, QLabel, QWidget,QGraphicsOpacityEffect
-from PySide6.QtCore import QFile, Qt, Signal, QEvent, QObject, QUrl
-from PySide6.QtGui import QPixmap, QPixmap, QIcon
-from PySide6.QtUiTools import QUiLoader
-from PySide6.QtWidgets import QSizePolicy ,QVBoxLayout
-from PySide6.QtMultimedia import QMediaPlayer
-from PySide6.QtMultimediaWidgets import QVideoWidget
-from functools import partial
+from Qt.QtCore import Qt
 import sys
 import os
 
